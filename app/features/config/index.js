@@ -6,6 +6,11 @@ export default {
     aboutURL: 'https://hilfe.netzbegruenung.de/jitsi',
 
     /**
+     * The URL to the source code repository.
+     */
+    sourceURL: 'https://github.com/jitsi/jitsi-meet-electron',
+
+    /**
      * Application name.
      */
     appName: 'Netzbegruenung Konferenz',
