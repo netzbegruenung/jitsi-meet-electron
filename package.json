@@ -41,7 +41,10 @@
           "target": "AppImage"
         },
         {
-          "arch": "x64",
+          "arch": [
+            "ia32",
+            "x64"
+          ],
           "target": "deb"
         }
       ]
@@ -55,6 +58,11 @@
             "x64"
           ],
           "target": "nsis"
+        },
+      "target": [
+        {
+          "arch": "x64",
+          "target": "appx"
         }
       ]
     },

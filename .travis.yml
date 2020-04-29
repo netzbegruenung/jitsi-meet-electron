@@ -17,6 +17,12 @@ matrix:
             - zlib1g-dev
             - libpng-dev
             - libxtst-dev
+            - gcc-multilib
+            - g++-multilib
+            - libx11-dev:i386
+            - zlib1g-dev:i386
+            - libpng-dev:i386
+            - libxtst-dev:i386
 
 script:
   - npm run dist
