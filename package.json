@@ -49,6 +49,9 @@
         }
       ]
     },
+    "appx": {
+      "identityName": "Netzbegruenung.Konferenz"
+    },
     "win": {
       "artifactName": "netzbegruenung-konferenz.${ext}",
       "target": [
